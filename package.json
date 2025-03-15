@@ -1,0 +1,36 @@
+{
+  "name": "mocha-mousse-theme",
+  "displayName": "Mocha Mousse Theme",
+  "description": "A sophisticated VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse 17-1230",
+  "version": "0.1.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mocha Mousse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mocha-mousse-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vscode-mocha-mousse-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "mocha",
+    "brown",
+    "pantone",
+    "color of the year",
+    "2025"
+  ],
+  "license": "MIT"
+}

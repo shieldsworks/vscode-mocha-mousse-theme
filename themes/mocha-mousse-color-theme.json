@@ -1,0 +1,75 @@
+{
+  "name": "Mocha Mousse",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2A2321",
+    "editor.foreground": "#E8E1D9",
+    "activityBar.background": "#231D1B",
+    "sideBar.background": "#2A2321",
+    "sideBar.foreground": "#D4C3B8",
+    "titleBar.activeBackground": "#17-1230",
+    "statusBar.background": "#17-1230",
+    "statusBar.foreground": "#E8E1D9",
+    "tab.activeBackground": "#3A332F",
+    "tab.inactiveBackground": "#2A2321",
+    "editorGroupHeader.tabsBackground": "#231D1B",
+    "input.background": "#3A332F",
+    "dropdown.background": "#3A332F",
+    "panel.background": "#2A2321",
+    "badge.background": "#8B6E5A",
+    "badge.foreground": "#E8E1D9",
+    "button.background": "#8B6E5A",
+    "button.foreground": "#E8E1D9"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#7A6B62"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#C4A788"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#B88E6E"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#D4B4A1"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#E8D5C8"
+      }
+    },
+    {
+      "name": "Class names",
+      "scope": ["entity.name.type", "entity.name.class"],
+      "settings": {
+        "foreground": "#CFAA8C"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant", "variable.other.constant"],
+      "settings": {
+        "foreground": "#BF9B7A"
+      }
+    }
+  ]
+}

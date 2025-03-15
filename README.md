@@ -8,7 +8,18 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
 
 ## Installation
 
-### Method 1: Local Installation from GitHub
+### Method 1: VS Code Marketplace (Recommended)
+
+1. Open VS Code
+2. Go to the Extensions view:
+   - Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac)
+   - Or click the Extensions icon in the Activity Bar
+3. Search for "Mocha Mousse Theme"
+4. Click Install
+5. Press `Cmd+K Cmd+T` (Mac) or `Ctrl+K Ctrl+T` (Windows/Linux)
+6. Select "Mocha Mousse" from the theme dropdown
+
+### Method 2: Manual Installation
 
 1. Clone this repository:
 
@@ -43,7 +54,7 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
      - Type "Developer: Reload Window" and press Enter
      - Try selecting the theme again
 
-### Method 2: Direct Use in Settings
+### Method 3: Direct Use in Settings
 
 1. Open your VS Code settings.json:
 

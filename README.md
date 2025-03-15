@@ -40,10 +40,10 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
    - Using VS Code:
      - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
      - Type "Install from VSIX"
-     - Select the generated `mocha-mousse-theme-0.1.1.vsix` file
+     - Select the generated `mocha-mousse-theme-0.1.2.vsix` file
    - Or using command line:
      ```bash
-     code --install-extension mocha-mousse-theme-0.1.1.vsix
+     code --install-extension mocha-mousse-theme-0.1.2.vsix
      ```
 
 4. After installation:

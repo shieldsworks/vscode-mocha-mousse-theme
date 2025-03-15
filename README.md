@@ -8,12 +8,69 @@ A sophisticated and elegant VS Code theme inspired by Pantone's Color of the Yea
 
 ## Installation
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Mocha Mousse Theme"
-4. Click Install
-5. Press Ctrl+K + Ctrl+T / Cmd+K + Cmd+T to open the theme selector
-6. Select "Mocha Mousse"
+### Method 1: Local Installation from GitHub
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/shieldsworks/vscode-mocha-mousse-theme.git
+   cd vscode-mocha-mousse-theme
+   ```
+
+2. Install dependencies and package the theme:
+
+   ```bash
+   npm install -g @vscode/vsce
+   vsce package
+   ```
+
+3. Install the generated .vsix file:
+   - Using VS Code:
+     - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+     - Type "Install from VSIX"
+     - Select the generated `mocha-mousse-theme-0.1.0.vsix` file
+   - Or using command line:
+     ```bash
+     code --install-extension mocha-mousse-theme-0.1.0.vsix
+     ```
+
+### Method 2: Direct Use in Settings
+
+1. Open your VS Code/Cursor settings.json
+2. Add these color customizations:
+   ```json
+   {
+     "workbench.colorCustomizations": {
+       "editor.background": "#2A2321",
+       "editor.foreground": "#E8E1D9",
+       "activityBar.background": "#231D1B",
+       "sideBar.background": "#2A2321",
+       "sideBar.foreground": "#D4C3B8",
+       "titleBar.activeBackground": "#9E7967",
+       "statusBar.background": "#9E7967",
+       "statusBar.foreground": "#E8E1D9",
+       "tab.activeBackground": "#3A332F",
+       "tab.inactiveBackground": "#2A2321",
+       "editorGroupHeader.tabsBackground": "#231D1B",
+       "input.background": "#3A332F",
+       "dropdown.background": "#3A332F",
+       "panel.background": "#2A2321",
+       "badge.background": "#8B6E5A",
+       "badge.foreground": "#E8E1D9",
+       "button.background": "#8B6E5A",
+       "button.foreground": "#E8E1D9"
+     },
+     "editor.tokenColorCustomizations": {
+       "comments": "#7A6B62",
+       "strings": "#C4A788",
+       "keywords": "#B88E6E",
+       "functions": "#D4B4A1",
+       "variables": "#E8D5C8",
+       "types": "#CFAA8C",
+       "numbers": "#BF9B7A"
+     }
+   }
+   ```
 
 ## Features
 
@@ -26,13 +83,13 @@ A sophisticated and elegant VS Code theme inspired by Pantone's Color of the Yea
 ## Color Palette
 
 - Primary (Mocha Mousse): #9E7967
-- Background: #291A15
-- Foreground: #F7E8E1
-- Comments: #A89986
-- Strings: #CCA98D
-- Keywords: #B14C32
-- Functions: #E0C7A8
-- Variables: #DCCCBD
+- Background: #2A2321
+- Foreground: #E8E1D9
+- Comments: #7A6B62
+- Strings: #C4A788
+- Keywords: #B88E6E
+- Functions: #D4B4A1
+- Variables: #E8D5C8
 
 ## Contributing
 

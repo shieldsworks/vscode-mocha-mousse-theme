@@ -2,73 +2,73 @@
   "name": "Mocha Mousse",
   "type": "dark",
   "colors": {
-    "editor.background": "#291A15",
-    "editor.foreground": "#F7E8E1",
-    "activityBar.background": "#1D1411",
-    "sideBar.background": "#291A15",
-    "sideBar.foreground": "#DCCCBD",
+    "editor.background": "#2A2321",
+    "editor.foreground": "#E8E1D9",
+    "activityBar.background": "#231D1B",
+    "sideBar.background": "#2A2321",
+    "sideBar.foreground": "#D4C3B8",
     "titleBar.activeBackground": "#9E7967",
     "statusBar.background": "#9E7967",
-    "statusBar.foreground": "#F7E8E1",
-    "tab.activeBackground": "#3D2820",
-    "tab.inactiveBackground": "#291A15",
-    "editorGroupHeader.tabsBackground": "#1D1411",
-    "input.background": "#3D2820",
-    "dropdown.background": "#3D2820",
-    "panel.background": "#291A15",
-    "badge.background": "#B14C32",
-    "badge.foreground": "#F7E8E1",
-    "button.background": "#B14C32",
-    "button.foreground": "#F7E8E1"
+    "statusBar.foreground": "#E8E1D9",
+    "tab.activeBackground": "#3A332F",
+    "tab.inactiveBackground": "#2A2321",
+    "editorGroupHeader.tabsBackground": "#231D1B",
+    "input.background": "#3A332F",
+    "dropdown.background": "#3A332F",
+    "panel.background": "#2A2321",
+    "badge.background": "#8B6E5A",
+    "badge.foreground": "#E8E1D9",
+    "button.background": "#8B6E5A",
+    "button.foreground": "#E8E1D9"
   },
   "tokenColors": [
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#A89986"
+        "foreground": "#7A6B62"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "string.quoted"],
       "settings": {
-        "foreground": "#CCA98D"
+        "foreground": "#C4A788"
       }
     },
     {
       "name": "Keywords",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#B14C32"
+        "foreground": "#B88E6E"
       }
     },
     {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#E0C7A8"
+        "foreground": "#D4B4A1"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "variable.other"],
       "settings": {
-        "foreground": "#DCCCBD"
+        "foreground": "#E8D5C8"
       }
     },
     {
       "name": "Class names",
       "scope": ["entity.name.type", "entity.name.class"],
       "settings": {
-        "foreground": "#CCA98D"
+        "foreground": "#CFAA8C"
       }
     },
     {
       "name": "Constants",
       "scope": ["constant", "variable.other.constant"],
       "settings": {
-        "foreground": "#B14C32"
+        "foreground": "#BF9B7A"
       }
     }
   ]

@@ -25,18 +25,31 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
    ```
 
 3. Install the generated .vsix file:
+
    - Using VS Code:
      - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
      - Type "Install from VSIX"
-     - Select the generated `mocha-mousse-theme-0.1.0.vsix` file
+     - Select the generated `mocha-mousse-theme-0.1.1.vsix` file
    - Or using command line:
      ```bash
-     code --install-extension mocha-mousse-theme-0.1.0.vsix
+     code --install-extension mocha-mousse-theme-0.1.1.vsix
      ```
+
+4. After installation:
+   - Press `Cmd+K Cmd+T` (Mac) or `Ctrl+K Ctrl+T` (Windows/Linux)
+   - Select "Mocha Mousse" from the theme dropdown
+   - If you don't see the theme, try:
+     - Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
+     - Type "Developer: Reload Window" and press Enter
+     - Try selecting the theme again
 
 ### Method 2: Direct Use in Settings
 
-1. Open your VS Code/Cursor settings.json
+1. Open your VS Code settings.json:
+
+   - Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
+   - Type "Preferences: Open Settings (JSON)"
+
 2. Add these color customizations:
    ```json
    {
@@ -74,11 +87,11 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
 
 ## Features
 
-- Carefully crafted color palette based on Pantone's Mocha Mousse (17-1230)
-- Optimized for long coding sessions with eye-friendly contrast
-- Semantic highlighting for better code readability
+- Color palette based on Pantone's Mocha Mousse (17-1230)
+- Eye-friendly contrast for long coding sessions
+- Semantic highlighting for code readability
 - Support for popular programming languages
-- Consistent UI elements across the entire workspace
+- Consistent UI elements
 
 ## Color Palette
 

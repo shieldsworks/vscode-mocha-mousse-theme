@@ -4,7 +4,7 @@ A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-
 
 ## Preview
 
-[Add screenshots here once the theme is installed]
+![Mocha Mousse Theme Preview](./images/theme-preview.png)
 
 ## Installation
 

@@ -2,7 +2,7 @@
   "name": "mocha-mousse-theme",
   "displayName": "Mocha Mousse Theme",
   "description": "A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse 17-1230",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "shieldsworks",
   "engines": {
     "vscode": "^1.60.0"

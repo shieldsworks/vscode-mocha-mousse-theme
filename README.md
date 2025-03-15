@@ -25,14 +25,14 @@ A sophisticated and elegant VS Code theme inspired by Pantone's Color of the Yea
 
 ## Color Palette
 
-- Primary (Mocha Mousse): #17-1230
-- Background: #2A2321
-- Foreground: #E8E1D9
-- Comments: #7A6B62
-- Strings: #C4A788
-- Keywords: #B88E6E
-- Functions: #D4B4A1
-- Variables: #E8D5C8
+- Primary (Mocha Mousse): #9E7967
+- Background: #291A15
+- Foreground: #F7E8E1
+- Comments: #A89986
+- Strings: #CCA98D
+- Keywords: #B14C32
+- Functions: #E0C7A8
+- Variables: #DCCCBD
 
 ## Contributing
 

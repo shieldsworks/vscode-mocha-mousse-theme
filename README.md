@@ -1,6 +1,6 @@
 # Mocha Mousse Theme for VS Code
 
-A sophisticated and elegant VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-1230). This theme combines warm, rich browns with complementary tones to create a comfortable and productive coding environment.
+A VS Code theme inspired by Pantone's Color of the Year 2025 - Mocha Mousse (17-1230). This theme uses browns with complementary tones to create a comfortable coding environment.
 
 ## Preview
 
